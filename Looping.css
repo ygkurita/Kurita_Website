@@ -1,0 +1,138 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.479), rgba(0, 0, 0, 0.479)), url('https://film-grab.com/wp-content/uploads/photo-gallery/Spirited_Away_050.jpg?bwg=1569839416');
+    background-size: cover;
+    font-family: cursive;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #141342;
+}
+ul {
+    float: right;
+    list-style-type: none;
+    margin-top: 30px;
+    margin-right: 10px;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 30px;
+    border: 1px solid transparent;
+    transition: 0.5s ease;
+}
+
+ul li a:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+ul li.active a {
+    background-color: #fff;
+    color: #000;
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+.container {
+    text-align: center;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.61);
+    background-color: #3533337e;
+    margin: 150px;
+}
+
+h2 {
+    color: #ffffff;
+}
+
+label {
+    margin-right: 10px;
+    color: #fff;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 200px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px;
+    background-color: #003c64;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #002a46;
+}
+
+#output {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(253, 253, 253, 0.1);
+    text-align: left;
+    color: #fff ;
+}
+
+p {
+    margin: 10px 0;
+}
+@media only screen and (max-width: 768px) {
+    ul {
+        float: none;
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    ul li a {
+        display: block;
+        padding: 10px;
+    }
+
+    header {
+        height: auto;
+    }
+
+    .title,
+    .button {
+        position: relative;
+        top: auto;
+        left: auto;
+        transform: none;
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    .title h1 {
+        font-size: 40px;
+    }
+}
+p{
+    text-align: justify;
+    font-size: large;
+    text-shadow: #000;
+    color: #fff;
+    ;
+}
